@@ -1,4 +1,4 @@
-# JUnit Trump Extension ![Build Status](https://github.com/Krymonota/junit-trump-extension/workflows/tests/badge.svg) [![License](https://img.shields.io/github/license/Krymonota/junit-trump-extension.svg?style=flat-square)](https://github.com/Krymonota/junit-trump-extension/LICENSE.txt) 
+# JUnit Trump Extension ![Build Status](https://github.com/Krymonota/junit-trump-extension/workflows/tests/badge.svg) [![License](https://img.shields.io/github/license/Krymonota/junit-trump-extension.svg?style=flat-square)](https://github.com/Krymonota/junit-trump-extension/blob/master/LICENSE) 
 This extension for JUnit 5 acts like there are no tests, because if you don't have any, they can't fail, right?
 
 Sample JUnit Results (no matter how many tests you've developed!):
