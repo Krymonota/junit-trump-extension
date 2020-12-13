@@ -54,7 +54,7 @@ libraryDependencies += "id.niklas" % "junit-trump-extension" % "1.0.0"
 There are three ways to register this JUnit extension:
 1. Enable automatic detection extension by setting the system property `junit.jupiter.extensions.autodetection.enabled=true` (either in your `pom.xml` or as a VM option).<br>
 Then add a [`/META-INF/services/org.junit.jupiter.api.extension.Extension`](https://github.com/Krymonota/junit-trump-extension/blob/master/src/test/resources/META-INF/services/org.junit.jupiter.api.extension.Extension) file and specify `id.niklas.junit_trump_extension.JUnitTrumpExtension` as its sole content.
-2. Register the extension declaratively by annotating test classes with `@ExtendWith(JUnitTrumpExtension.class`.
+2. Register the extension declaratively by annotating test classes with `@ExtendWith(JUnitTrumpExtension.class)`.
 3. Register the extension programmatically by adding a static field to your test classes:<br>
 `@RegisterExtension`<br>
 `static JUnitTrumpExtension trumpExtension = new JUnitTrumpExtension();`
