@@ -21,6 +21,7 @@ Sample JUnit Results (no matter how many tests you've developed!):
         <groupId>id.niklas</groupId>
         <artifactId>junit-trump-extension</artifactId>
         <version>1.0.0</version>
+        <scope>test</scope>
     </dependency>
 </dependencies>
 ```
@@ -36,7 +37,7 @@ allprojects {
 }
 
 dependencies {
-    implementation 'id.niklas:junit-trump-extension:1.0.0'
+    testImplementation 'id.niklas:junit-trump-extension:1.0.0'
 }
 ```
 </details>
@@ -46,7 +47,7 @@ dependencies {
 ```scala
 resolvers += "junit-trump-extension" at "https://mymavenrepo.com/repo/v3i97KuHAZF1V0yF9mn0"
 
-libraryDependencies += "id.niklas" % "junit-trump-extension" % "1.0.0"
+libraryDependencies += "id.niklas" % "junit-trump-extension" % "1.0.0" % "test"
 ```
 </details>
 
